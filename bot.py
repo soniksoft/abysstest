@@ -61,7 +61,7 @@ async def choose_class(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Основная функция
 def main():
     # Твой токен
-    token = '7711583331:AAGUzyGB6rCWmj_GO8-5Hxy4uAKf0CbmXPA'
+    token = "7711583331:AAGUzyGB6rCWmj_GO8-5Hxy4uAKf0CbmXPA"
     application = Application.builder().token(token).build()
 
     # Регистрируем обработчики
