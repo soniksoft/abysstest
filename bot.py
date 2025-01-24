@@ -8,7 +8,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Основная функция
 def main():
     # Вставь сюда свой токен
-    token = 'ТВОЙ_ТОКЕН'
+    token = 7721415697:AAHg2P1-8N7YleIfNC8wZqUyB2znDHCeTAQ
 
     # Создаём приложение и передаём токен
     application = Application.builder().token(token).build()
